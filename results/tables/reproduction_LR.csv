@@ -1,0 +1,4 @@
+Model,Input,Classes,Reported accuracy (%),Our accuracy (%),Difference (points),Reported training time (s),Our training time (s),Explanation
+Logistic regression,raw,3,79.5,79.3,-0.2,25,20,Reproduced: within 1 point
+Logistic regression,raw,10,64.6,65.8,1.2,122,20,Reproduced: within 2 points
+Logistic regression,raw,50,43.9,43.3,-0.6,1089,86,Reproduced: within 1 point

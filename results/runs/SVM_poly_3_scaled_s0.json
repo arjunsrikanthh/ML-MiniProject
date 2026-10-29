@@ -1,0 +1,28 @@
+{
+ "run_id": "SVM_poly_3_scaled_s0",
+ "family": "SVM",
+ "model": "poly",
+ "classes": 3,
+ "input": "scaled",
+ "params": {
+  "kernel": "poly",
+  "max_iter": 500,
+  "degree": 5,
+  "coef0": 1
+ },
+ "fit_time_s": 37.7,
+ "total_time_s": 41.2,
+ "dev_acc": 66.73,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-11T22:32:33",
+ "concurrent": []
+}

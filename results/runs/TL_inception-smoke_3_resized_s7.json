@@ -1,0 +1,37 @@
+{
+ "run_id": "TL_inception-smoke_3_resized_s7",
+ "family": "TL",
+ "model": "inception-smoke",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 2,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": {
+   "epochs": 1,
+   "optimizer": "sgd(lr=1e-4, momentum=0.9, clipnorm=1)",
+   "first_trainable_layer": 249
+  },
+  "option": "A (precomputed features)",
+  "extract_time_s": 12.8,
+  "head_sec_per_epoch": 4.48
+ },
+ "fit_time_s": 13.44,
+ "total_time_s": 16.48,
+ "dev_acc": 37.0,
+ "test_acc": 44.0,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:14:31",
+ "concurrent": []
+}

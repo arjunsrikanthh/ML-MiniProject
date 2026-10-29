@@ -1,0 +1,37 @@
+Model family,Model,Input,Classes,Validation accuracy (%),Test accuracy (%),Training time (s),Explanation
+Logistic regression,Logistic regression,raw,3,79.3,78.6,20,—
+Logistic regression,Logistic regression,raw,10,65.8,66.6,20,—
+Logistic regression,Logistic regression,raw,50,43.3,43.3,86,—
+SVM,Linear,scaled,3,43.3,—,38,Test accuracy not measured (validation only)
+SVM,RBF,scaled,3,84.0,—,41,Test accuracy not measured (validation only)
+SVM,Polynomial,scaled,3,66.7,—,38,Test accuracy not measured (validation only)
+SVM,Sigmoid,scaled,3,32.5,—,43,Test accuracy not measured (validation only)
+SVM,Linear,scaled,10,23.4,—,563,Test accuracy not measured (validation only)
+SVM,RBF,scaled,10,74.6,—,655,Test accuracy not measured (validation only)
+SVM,Polynomial,scaled,10,73.9,—,607,Test accuracy not measured (validation only)
+SVM,Sigmoid,scaled,10,13.4,—,691,Test accuracy not measured (validation only)
+CNN,V1,raw,3,90.8,—,39,Test accuracy not measured (validation only)
+CNN,V1,binarized,3,89.6,—,44,Test accuracy not measured (validation only)
+CNN,V2,raw,3,91.7,—,38,Test accuracy not measured (validation only)
+CNN,V2,binarized,3,90.1,—,39,Test accuracy not measured (validation only)
+CNN,V3,binarized,3,88.8,—,37,Test accuracy not measured (validation only)
+CNN,V4,binarized,3,89.2,—,37,Test accuracy not measured (validation only)
+CNN,V1,raw,10,88.8,—,109,Test accuracy not measured (validation only)
+CNN,V1,binarized,10,86.6,—,109,Test accuracy not measured (validation only)
+CNN,V2,raw,10,88.5,—,99,Test accuracy not measured (validation only)
+CNN,V2,binarized,10,85.1,—,100,Test accuracy not measured (validation only)
+CNN,V3,binarized,10,84.1,—,92,Test accuracy not measured (validation only)
+CNN,V4,binarized,10,84.7,—,87,Test accuracy not measured (validation only)
+CNN,V1,raw,50,81.2,—,431,Test accuracy not measured (validation only)
+CNN,V1,binarized,50,76.8,—,424,Test accuracy not measured (validation only)
+CNN,V2,raw,50,75.1,75.1,373,—
+CNN,V2,binarized,50,70.4,—,375,Test accuracy not measured (validation only)
+CNN,V3,binarized,50,65.1,—,320,Test accuracy not measured (validation only)
+CNN,V4,binarized,50,70.5,—,361,Test accuracy not measured (validation only)
+Transfer learning,VGG19,resized,3,95.4,94.8,207,Training time includes the one-off feature extraction
+Transfer learning,MobileNet,resized,3,94.6,93.9,124,Training time includes the one-off feature extraction
+Transfer learning,ResNet50,resized,3,95.4,95.2,170,Training time includes the one-off feature extraction
+Transfer learning,InceptionV3,resized,3,93.1,92.7,1351,Training time includes the one-off feature extraction
+XGBoost,XGBoost,raw,3,91.7,90.8,57,First tuned model kept (it had already converged)
+XGBoost,XGBoost,raw,10,89.8,89.8,486,Final tuned model from the extended run
+XGBoost,XGBoost,raw,50,78.0,77.9,7191,Final tuned model from the extended run

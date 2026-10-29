@@ -1,0 +1,9 @@
+Kernel,Classes,Reported accuracy (%),Ours at 20k per class (%),Ours at 70k per class (%),Our training time at 20k (s),Our training time at 70k (s)
+Linear,3,40.8,43.3,41.5,38,131
+RBF,3,62.7,84.0,75.0,41,134
+Polynomial,3,51.7,66.7,54.2,38,120
+Sigmoid,3,33.1,32.5,29.6,43,141
+Linear,10,22.2,23.4,23.0,563,1462
+RBF,10,61.0,74.6,64.3,655,1684
+Polynomial,10,50.9,73.9,56.6,607,1413
+Sigmoid,10,11.7,13.4,10.5,691,1710

@@ -1,0 +1,42 @@
+{
+ "run_id": "XGB_xgb_3_raw_s0",
+ "family": "XGB",
+ "model": "xgb",
+ "classes": 3,
+ "input": "raw",
+ "params": {
+  "max_depth": 7,
+  "learning_rate": 0.03281888560089108,
+  "min_child_weight": 2.198442497388323,
+  "subsample": 0.7172561094248947,
+  "colsample_bytree": 0.6980247461253768,
+  "gamma": 0.07169017719241202,
+  "reg_lambda": 9.71842568379672,
+  "rounds": 1301,
+  "max_rounds": 3000,
+  "early_stopping": 50,
+  "study": "xgb_3",
+  "trial": 41,
+  "n_trials": 45,
+  "n_complete": 45,
+  "n_failed": 0,
+  "n_not_started": 0,
+  "search_time_s": 1531.3,
+  "timeout_s": 1500
+ },
+ "fit_time_s": 56.76,
+ "total_time_s": 1532.56,
+ "dev_acc": 91.65,
+ "test_acc": 90.8,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-12T07:23:19",
+ "concurrent": []
+}

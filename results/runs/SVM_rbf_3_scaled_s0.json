@@ -1,0 +1,31 @@
+{
+ "run_id": "SVM_rbf_3_scaled_s0",
+ "family": "SVM",
+ "model": "rbf",
+ "classes": 3,
+ "input": "scaled",
+ "params": {
+  "kernel": "rbf",
+  "max_iter": 500,
+  "gamma": 1
+ },
+ "fit_time_s": 41.36,
+ "total_time_s": 45.02,
+ "dev_acc": 84.0,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-11T22:32:37",
+ "concurrent": [
+  "SVM_linear_3_scaled_s0",
+  "SVM_poly_3_scaled_s0",
+  "SVM_sigmoid_3_scaled_s0"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "run_id": "XGB_xgb_extended_50_raw_s0",
+ "family": "XGB",
+ "model": "xgb_extended",
+ "classes": 50,
+ "input": "raw",
+ "params": {
+  "max_depth": 9,
+  "learning_rate": 0.07021814240391494,
+  "min_child_weight": 9.963021255230968,
+  "subsample": 0.6853860924729357,
+  "colsample_bytree": 0.7738006619746751,
+  "gamma": 0.13115863876167552,
+  "reg_lambda": 9.999093035578236,
+  "rounds": 2193,
+  "max_rounds": 5000,
+  "early_stopping": 50,
+  "converged": true,
+  "source_run": "A1",
+  "source": "Phase 8 xgb_50 best (stage-1 trial 24), continued from the Phase 8 capped model",
+  "n_runs": 4,
+  "continued_from_round": 1168,
+  "phase8_fit_time_s": 4502.63,
+  "n_converged": 3,
+  "search_time_s": 30248.2,
+  "label": "xgb_extended"
+ },
+ "fit_time_s": 7191.1,
+ "total_time_s": 37.8,
+ "dev_acc": 77.95,
+ "test_acc": 77.89,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-13T03:38:53",
+ "concurrent": []
+}

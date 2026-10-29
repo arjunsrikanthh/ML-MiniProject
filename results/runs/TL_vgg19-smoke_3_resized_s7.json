@@ -1,0 +1,33 @@
+{
+ "run_id": "TL_vgg19-smoke_3_resized_s7",
+ "family": "TL",
+ "model": "vgg19-smoke",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 2,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": null,
+  "option": "A (precomputed features)",
+  "extract_time_s": 39.6,
+  "head_sec_per_epoch": 1.14
+ },
+ "fit_time_s": 2.29,
+ "total_time_s": 3.16,
+ "dev_acc": 79.0,
+ "test_acc": 81.0,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:13:28",
+ "concurrent": []
+}

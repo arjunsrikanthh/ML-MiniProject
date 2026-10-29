@@ -1,0 +1,5 @@
+Model,Input,Classes,Reported accuracy (%),Our accuracy (%),Difference (points),Reported training time (s),Our training time (s),Explanation
+VGG19,resized,3,95.6,95.4,-0.2,207,207,Reproduced: within 1 point. Reported time is seconds per epoch for the full network; ours is feature extraction plus head training in total
+MobileNet,resized,3,75.4,94.6,19.2,103,124,"Frozen BatchNorm behaved differently in 2018 Keras, which lowered their scores. Reported time is seconds per epoch for the full network; ours is feature extraction plus head training in total"
+ResNet50,resized,3,62.7,95.4,32.6,152,170,"Frozen BatchNorm behaved differently in 2018 Keras, which lowered their scores. Reported time is seconds per epoch for the full network; ours is feature extraction plus head training in total"
+InceptionV3,resized,3,45.7,93.1,47.3,540,1351,"Frozen BatchNorm behaved differently in 2018 Keras, which lowered their scores. Reported time is seconds per epoch for the full network; ours is feature extraction plus head training in total"

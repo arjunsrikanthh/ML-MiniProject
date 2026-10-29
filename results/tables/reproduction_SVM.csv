@@ -1,0 +1,9 @@
+Model,Input,Classes,Reported accuracy (%),Our accuracy (%),Difference (points),Reported training time (s),Our training time (s),Explanation
+Linear,scaled,3,40.8,43.3,2.5,204,38,"Their SVM runs used about 70,000 drawings per class; with fewer drawings the same 500-iteration cap gets closer to convergence"
+RBF,scaled,3,62.7,84.0,21.3,317,41,"Their SVM runs used about 70,000 drawings per class; with fewer drawings the same 500-iteration cap gets closer to convergence"
+Polynomial,scaled,3,51.7,66.7,15.0,448,38,"Their SVM runs used about 70,000 drawings per class; with fewer drawings the same 500-iteration cap gets closer to convergence"
+Sigmoid,scaled,3,33.1,32.5,-0.6,478,43,Reproduced: within 1 point
+Linear,scaled,10,22.2,23.4,1.1,1831,563,Reproduced: within 2 points
+RBF,scaled,10,61.0,74.6,13.6,2842,655,"Their SVM runs used about 70,000 drawings per class; with fewer drawings the same 500-iteration cap gets closer to convergence"
+Polynomial,scaled,10,50.9,73.9,23.0,6673,607,"Their SVM runs used about 70,000 drawings per class; with fewer drawings the same 500-iteration cap gets closer to convergence"
+Sigmoid,scaled,10,11.7,13.4,1.7,6971,691,Reproduced: within 2 points

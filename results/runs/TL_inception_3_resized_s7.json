@@ -1,0 +1,37 @@
+{
+ "run_id": "TL_inception_3_resized_s7",
+ "family": "TL",
+ "model": "inception",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 50,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": {
+   "epochs": 50,
+   "optimizer": "sgd(lr=1e-4, momentum=0.9, clipnorm=1)",
+   "first_trainable_layer": 249
+  },
+  "option": "A (precomputed features)",
+  "extract_time_s": 140.7,
+  "head_sec_per_epoch": 12.1
+ },
+ "fit_time_s": 1210.27,
+ "total_time_s": 1219.02,
+ "dev_acc": 93.05,
+ "test_acc": 92.67,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:46:13",
+ "concurrent": []
+}

@@ -1,0 +1,29 @@
+{
+ "run_id": "CNN_V3-smoke_3_binarized_s7",
+ "family": "CNN",
+ "model": "V3-smoke",
+ "classes": 3,
+ "input": "binarized",
+ "params": {
+  "epochs": 1,
+  "batch_size": 500,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "seed": 7
+ },
+ "fit_time_s": 3.72,
+ "total_time_s": 4.7,
+ "dev_acc": 81.35,
+ "test_acc": null,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-11T22:31:16",
+ "concurrent": []
+}

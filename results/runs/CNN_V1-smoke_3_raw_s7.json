@@ -1,0 +1,29 @@
+{
+ "run_id": "CNN_V1-smoke_3_raw_s7",
+ "family": "CNN",
+ "model": "V1-smoke",
+ "classes": 3,
+ "input": "raw",
+ "params": {
+  "epochs": 2,
+  "batch_size": 500,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "seed": 7
+ },
+ "fit_time_s": 4.66,
+ "total_time_s": 5.71,
+ "dev_acc": 84.83,
+ "test_acc": null,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-11T22:31:02",
+ "concurrent": []
+}

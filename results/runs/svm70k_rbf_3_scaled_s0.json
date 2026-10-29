@@ -1,0 +1,27 @@
+{
+ "run_id": "svm70k_rbf_3_scaled_s0",
+ "family": "svm70k",
+ "model": "rbf",
+ "classes": 3,
+ "input": "scaled",
+ "params": {
+  "kernel": "rbf",
+  "max_iter": 500,
+  "gamma": 1
+ },
+ "fit_time_s": 134.39,
+ "total_time_s": 147.21,
+ "dev_acc": 75.03,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-12T01:29:46",
+ "concurrent": []
+}

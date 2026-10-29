@@ -1,0 +1,41 @@
+{
+ "run_id": "XGB_xgb-smoke_3_raw_s0",
+ "family": "XGB",
+ "model": "xgb-smoke",
+ "classes": 3,
+ "input": "raw",
+ "params": {
+  "max_depth": 10,
+  "learning_rate": 0.2639240345912299,
+  "min_child_weight": 3.479815545980282,
+  "subsample": 0.9127165865697925,
+  "colsample_bytree": 0.5832269887769329,
+  "gamma": 0.5215940357261432,
+  "reg_lambda": 0.1140146584776802,
+  "rounds": 21,
+  "max_rounds": 30,
+  "early_stopping": 5,
+  "study": "xgb-smoke_3",
+  "trial": 185,
+  "n_trials": 193,
+  "n_complete": 193,
+  "n_failed": 0,
+  "search_time_s": 60.2,
+  "timeout_s": 1500
+ },
+ "fit_time_s": 0.23,
+ "total_time_s": 61.2,
+ "dev_acc": 87.33,
+ "test_acc": 82.0,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-12T01:25:03",
+ "concurrent": []
+}

@@ -1,0 +1,27 @@
+{
+ "run_id": "LR_logreg_50_raw_s0",
+ "family": "LR",
+ "model": "logreg",
+ "classes": 50,
+ "input": "raw",
+ "params": {
+  "solver": "lbfgs",
+  "max_iter": 100,
+  "random_state": 0
+ },
+ "fit_time_s": 85.98,
+ "total_time_s": 87.04,
+ "dev_acc": 43.31,
+ "test_acc": 43.26,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-11T22:15:52",
+ "concurrent": []
+}

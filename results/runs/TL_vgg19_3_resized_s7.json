@@ -1,0 +1,33 @@
+{
+ "run_id": "TL_vgg19_3_resized_s7",
+ "family": "TL",
+ "model": "vgg19",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 20,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": null,
+  "option": "A (precomputed features)",
+  "extract_time_s": 189.8,
+  "head_sec_per_epoch": 0.85
+ },
+ "fit_time_s": 17.04,
+ "total_time_s": 18.12,
+ "dev_acc": 95.35,
+ "test_acc": 94.8,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:18:20",
+ "concurrent": []
+}

@@ -1,0 +1,33 @@
+{
+ "run_id": "CNN_V2_3_raw_s7",
+ "family": "CNN",
+ "model": "V2",
+ "classes": 3,
+ "input": "raw",
+ "params": {
+  "epochs": 100,
+  "batch_size": 500,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "seed": 7
+ },
+ "fit_time_s": 37.7,
+ "total_time_s": 38.91,
+ "dev_acc": 91.72,
+ "test_acc": null,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-11T22:33:16",
+ "concurrent": [
+  "SVM_linear_10_scaled_s0",
+  "SVM_rbf_10_scaled_s0",
+  "SVM_sigmoid_3_scaled_s0"
+ ]
+}

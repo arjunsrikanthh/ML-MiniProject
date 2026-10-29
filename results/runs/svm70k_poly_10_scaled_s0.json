@@ -1,0 +1,28 @@
+{
+ "run_id": "svm70k_poly_10_scaled_s0",
+ "family": "svm70k",
+ "model": "poly",
+ "classes": 10,
+ "input": "scaled",
+ "params": {
+  "kernel": "poly",
+  "max_iter": 500,
+  "degree": 5,
+  "coef0": 1
+ },
+ "fit_time_s": 1413.17,
+ "total_time_s": 1987.37,
+ "dev_acc": 56.59,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-12T02:02:56",
+ "concurrent": []
+}

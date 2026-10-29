@@ -1,0 +1,17 @@
+.venv/
+.runtime/
+.jupyter/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+data/
+*.ubj
+*.h5
+*.keras
+*.npy
+*.npz
+*.joblib
+*.log
+demonstration/output/

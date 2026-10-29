@@ -1,0 +1,33 @@
+{
+ "run_id": "TL_resnet50_3_resized_s7",
+ "family": "TL",
+ "model": "resnet50",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 100,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": null,
+  "option": "A (precomputed features)",
+  "extract_time_s": 85.7,
+  "head_sec_per_epoch": 0.84
+ },
+ "fit_time_s": 84.13,
+ "total_time_s": 85.61,
+ "dev_acc": 95.35,
+ "test_acc": 95.22,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:23:27",
+ "concurrent": []
+}

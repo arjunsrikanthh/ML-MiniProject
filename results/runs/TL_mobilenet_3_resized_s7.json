@@ -1,0 +1,33 @@
+{
+ "run_id": "TL_mobilenet_3_resized_s7",
+ "family": "TL",
+ "model": "mobilenet",
+ "classes": 3,
+ "input": "resized",
+ "params": {
+  "stage1": {
+   "epochs": 100,
+   "optimizer": "adam(clipnorm=1)",
+   "batch_size": 50
+  },
+  "stage2": null,
+  "option": "A (precomputed features)",
+  "extract_time_s": 41.7,
+  "head_sec_per_epoch": 0.82
+ },
+ "fit_time_s": 82.28,
+ "total_time_s": 83.48,
+ "dev_acc": 94.58,
+ "test_acc": 93.85,
+ "hardware": "GPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 7,
+ "date": "2026-10-12T00:20:30",
+ "concurrent": []
+}

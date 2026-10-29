@@ -1,0 +1,32 @@
+{
+ "run_id": "SVM_sigmoid_10_scaled_s0",
+ "family": "SVM",
+ "model": "sigmoid",
+ "classes": 10,
+ "input": "scaled",
+ "params": {
+  "kernel": "sigmoid",
+  "max_iter": 500,
+  "coef0": 1
+ },
+ "fit_time_s": 691.11,
+ "total_time_s": 837.1,
+ "dev_acc": 13.44,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-11T22:46:38",
+ "concurrent": [
+  "CNN_V2_3_raw_s7",
+  "SVM_linear_10_scaled_s0",
+  "SVM_poly_10_scaled_s0",
+  "SVM_rbf_10_scaled_s0"
+ ]
+}

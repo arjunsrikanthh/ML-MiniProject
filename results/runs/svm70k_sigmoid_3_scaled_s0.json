@@ -1,0 +1,30 @@
+{
+ "run_id": "svm70k_sigmoid_3_scaled_s0",
+ "family": "svm70k",
+ "model": "sigmoid",
+ "classes": 3,
+ "input": "scaled",
+ "params": {
+  "kernel": "sigmoid",
+  "max_iter": 500,
+  "coef0": 1
+ },
+ "fit_time_s": 141.25,
+ "total_time_s": 149.06,
+ "dev_acc": 29.55,
+ "test_acc": null,
+ "hardware": "CPU",
+ "versions": {
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "xgboost": "3.4.1"
+ },
+ "seed": 0,
+ "date": "2026-10-12T01:29:48",
+ "concurrent": [
+  "svm70k_linear_3_scaled_s0",
+  "svm70k_rbf_3_scaled_s0"
+ ]
+}
